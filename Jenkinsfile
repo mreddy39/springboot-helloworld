@@ -5,6 +5,7 @@ pipeline{
         agent{
             label 'master'
         }
+
           stages{
             /*stage('env configure') {
                 steps{
@@ -26,7 +27,7 @@ pipeline{
           stage('build'){
             steps{
 	    	script{
-                sh "mvn clean package -DskipTests"
+                bat "mvn clean package -DskipTests"
 
             }
 	    }
