@@ -35,7 +35,7 @@ pipeline{
 stage('Registring image and Docker image Build'){
     steps{
      	script{
-app = docker.build("demoapp")
+app = docker.build("helloworld")
 }
 }
 }
