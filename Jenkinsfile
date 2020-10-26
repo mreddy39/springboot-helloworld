@@ -59,3 +59,4 @@ stage('Push image to ACR with buildno tag'){
 
 }
 }
+}
