@@ -3,7 +3,7 @@ def fortifyCredentialsId = "fortifyCredentialsId"
 pipeline{
 
         agent{
-            label 'docker-azcli-kubectl-slave'
+            label 'master'
         }
           stages{
             /*stage('env configure') {
