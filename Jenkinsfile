@@ -5,11 +5,6 @@ pipeline{
         agent{
             label 'docker-azcli-kubectl-slave'
         }
-
-        tools{
-            maven 'Maven'
-            jdk 'Java 1.8'
-        }
           stages{
             /*stage('env configure') {
                 steps{
