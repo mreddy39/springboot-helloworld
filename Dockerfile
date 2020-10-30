@@ -1,8 +1,6 @@
 FROM dockerfile/java:oracle-java8
 
-ENV MAVEN_VERSION 3.2.5
 
-ENV MAVEN_HOME /usr/share/maven
 
 COPY . /data/springboot-helloworld
 WORKDIR /data/springboot-helloworld
